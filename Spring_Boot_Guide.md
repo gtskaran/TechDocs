@@ -1,7 +1,3 @@
-**Planning the guide structure**
-
-I need to include citations for any referenced facts, especially when mentioning books or external sources. I'll keep the guide concise but thorough, with sections like Overview, Architecture, Environments, Setup, and Practical Applications (like REST API, CRUD with JPA, and Messaging with Kafka). I'll also include deployment steps for local, Docker, and production on Ubuntu with systemd. Sudhakaran prefers non-video, step-by-step instructions, so I'll make sure to include commands and avoid too many citations. I'll aim for no more than six sections.
-
 ### Spring Boot practice guide
 
 Here’s a practical, step-by-step guide that covers architecture, environment setup, and three real applications you can run locally, in Docker, and on a production Linux server. For deeper patterns and production hardening, “Spring Boot in Practice” is a solid companion reference with scenario-driven guidance, and this concise best-practices overview is handy for architecture, security, testing, and deployment checklists.
@@ -242,8 +238,3 @@ Here’s a practical, step-by-step guide that covers architecture, environment s
 
 > For compact, actionable guidance across these areas, the best-practices resource is a good reference. For deeper, scenario-based solutions and production hardening, the Manning book and its repo provide extensive examples.
 
----
-
-### Want this tailored to your stack?
-
-If you share your preferred database (Postgres/MySQL), packaging (JAR vs Docker), and target server (bare Ubuntu vs Docker Compose), I’ll adapt the commands and configs to match your environment and constraints in Mylapore—especially for older hardware and low-resource deployments.
